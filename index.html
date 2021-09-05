@@ -80,7 +80,7 @@
           <section id="" class="page-section main-section">
             <h3 class="section-title">Other Success Stories</h3>
             <div class="post-card-list clearfix">
-               <div class="post-card">
+              <div class="post-card">
                  <a class="thumb" href="pages/success-story-olivia.html"><img src="assets/img/olivia.jpg" alt="Olivia&#39;s Success Story"/></a>
                  <h5 class="title"><a href="pages/success-story-olivia.html">Olivia&#39;s Success Story</a></h5>
                  <a class="more" href="pages/success-story-olivia.html">Read More</a>
@@ -97,6 +97,24 @@
               </div>
           </section>
         </div><!-- End of Primary -->
+        <div class="sidebar">
+          <div class="sidebar-section alter"
+              <div class="widget subscribe-widget">
+                  <h3 class="widget-title">Stay Informed</h3>
+                  <div class="widget-content">
+                      <p>Exerceo continues to provide learning opportunities, success stories, and new initiatives. Stay informed by joining our mailing list.</p>
+                      <form class="subscribe-widget-form" action="involvedExec" method="POST">
+                          <div class="form-group">
+                          <input id="email" name="email" class="form-control" type="email" placeholder="Email Address..."/>
+                          <input type="hidden" name="origin" value="<?php echo $currentFile; ?>" />
+                          </div>
+                          <button class="btn btn-primary btn-block" type="submit"><span>Join Our Mailing List</span></button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="sidebar-section"></div>
+        </div>
       </div>
     </div>
     <script src="index.js"></script>

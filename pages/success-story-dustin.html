@@ -76,6 +76,24 @@
               </p>
             </section>
           </div>
+          <div class="sidebar">
+            <div class="sidebar-section alter"
+                <div class="widget subscribe-widget">
+                    <h3 class="widget-title">Stay Informed</h3>
+                    <div class="widget-content">
+                        <p>Exerceo continues to provide learning opportunities, success stories, and new initiatives. Stay informed by joining our mailing list.</p>
+                        <form class="subscribe-widget-form" action="involvedExec" method="POST">
+                            <div class="form-group">
+                            <input id="email" name="email" class="form-control" type="email" placeholder="Email Address..."/>
+                            <input type="hidden" name="origin" value="<?php echo $currentFile; ?>" />
+                            </div>
+                            <button class="btn btn-primary btn-block" type="submit"><span>Join Our Mailing List</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-section"></div>
+          </div>
         </div>
       </div>
     </div>
